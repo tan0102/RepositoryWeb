@@ -1,0 +1,64 @@
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" role="navigation">
+    <!-- <nav class="nav navbar navbar-expand-lg bg-black" role="navigation"> -->
+    <div class="row">
+      <div class="col">
+          <a class="navbar-brand" href="/home"><app-logo></app-logo></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      </div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+      <div class="col"></div>
+    </div>
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="nav navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/models">MODEL S<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/model3">MODEL 3<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/modelx">MODEL X<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/modely">MODEL Y<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/roadster">ROADSTER<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/energy">ENERGY<span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav form-inline my-2 my-lg-0">
+      <li class="nav-item">
+          <a class="nav-link" href="/shop">SHOP<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/login">SIGN IN<span class="sr-only">(current)</span></a>
+        </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false"><span class="fa fa-bars"></span>
+        </a>
+        <!-- <div class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar" *ngIf="true">
+          <app-sidebar></app-sidebar>
+      </div> -->
+        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+            <app-sidebar></app-sidebar>
+        </div>
+      </li>
+
+    </ul>
+  </div>
+</nav>

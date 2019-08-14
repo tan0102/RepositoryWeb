@@ -1,0 +1,30 @@
+<img class="h-0 img-fluid d-block w-100" [src]=imageUrl alt="First slide">
+<div class="carousel-caption d-none d-md-block">
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4 text-center m-3">
+          <h5>{{titre}}</h5>
+          <h3>{{sous_titre}}</h3>
+        </div>
+        <div class="col-4"></div>
+      </div>
+      <div class="row">
+        <div class="col-3"></div>
+        <div class="col-3 m-2 text-center">
+          <app-bouton [text_bouton] = 'left_text_bouton'></app-bouton>
+        </div>
+        <div class="col-3 m-2 text-center">
+          <app-bouton [text_bouton] = 'right_text_bouton'></app-bouton>
+        </div>
+        <div class="col-3"></div>
+      </div>
+      <div class="row">
+        <div class="col"></div>
+        <div class="col text-center"><u>Visit a Store</u></div>
+        <div class="col"></div>
+      </div>
+    </div>
+  </div>
+</div>
